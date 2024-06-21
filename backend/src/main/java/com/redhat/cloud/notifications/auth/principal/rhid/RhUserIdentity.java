@@ -42,14 +42,4 @@ public class RhUserIdentity extends RhIdentity {
     public String getName() {
         return getUser().getUsername();
     }
-
-    @Override
-    public String toString() {
-        return "RhUserIdentity{" +
-            "accountNumber='" + this.accountNumber + '\'' +
-            ", orgId='" + this.orgId + '\'' +
-            ", username='" + this.user.username + '\'' +
-            ", type='" + this.type + '\'' +
-            '}';
-    }
 }
